@@ -7,8 +7,11 @@
 
 {{TOC}}
 
+## Acknowledgements
+This is a work product from the Keros-Naxos Seaways project (directed by Colin Renfrew and Michael Boyd), here made available for reuse and customization.  It is an extension of the [iDig digital excavation software] (http://idig.tips), developed by Bruce Hartzler and the [Athenian Agora Excavations of the American School of Classical Studies in Greece] (http://agathe.gr).
+
 ## Purpose
-The iDig to SQLite Data Processing tools take data exported from Bruce Hartzler's iDig (thanks Bruce!) and move them into a set of CSV files that can support a variety of uses such as import to a database or GIS.  There is also a second round of processing more specific to the project of origin (Keros-Naxos Seaways, directed by Colin Renfrew and Michael Boyd) and this creates additional CSVs for the GIS as well as a GeoPackage and a Sqlite database.  All of this can be modified for your project.
+The iDig to SQLite Data Processing tools take data exported from Bruce Hartzler's iDig and move them into a set of CSV files that can support a variety of uses such as import to a database or GIS.  There is also a second round of processing more specific to the Keros-Naxos Seaways project.  This creates additional CSVs for the GIS as well as a GeoPackage and a Sqlite database.  All of this can be modified for your project using text-based editing tools.
 
 ## Basic Requirements
 It would be good if a completely non-technical archaeologist could use these tools.  Unfortunately that is not the case.  Minimally you will need to have a rough understanding / tools as follows:
@@ -16,8 +19,8 @@ It would be good if a completely non-technical archaeologist could use these too
 1. You will need a rough familiarity with your platform of choice (Windows, MacOS, Linux) and how to navigate around the installation of tools and possibly configuration files as well as find and use the command line.
 2. Unless your iDig set up (or your CSV files otherwise obtained) are just like those used to build this set of tools **AND** your database design is just like the one defined here, you will need a text editor tool to edit the JSON files and the Python scripts.
 3. You will need some familiarity with the JSON method of structuring text in a file in a way that is human and machine readable.
-4. You will need the Python installed on your computer.  (Directions and sources are beyond the scope of this read me but start here at [Python](https://www.python.org/)).
-5. Finally, to make use of the resulting GeoPackage sqlite database that are created, you will need some way of engaging with them.  They have been used with [QGIS](https://qgis.org/en/site/) and DB Browner for [SQLite](https://sqlitebrowser.org).
+4. You will need Python installed on your computer.  (Directions and sources are beyond the scope of this read me but start here at [Python](https://www.python.org/)).
+5. Finally, to make use of the resulting GeoPackage and sqlite database that are created, you will need some way of engaging with them.  They have been used with [QGIS](https://qgis.org/en/site/) and [DB Browser for SQLite](https://sqlitebrowser.org).
 
 ### Configurability
 There is several types of configurability:
