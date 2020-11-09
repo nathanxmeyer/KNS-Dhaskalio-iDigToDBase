@@ -8,7 +8,7 @@
 {{TOC}}
 
 ## Acknowledgements
-This is a work product from the Keros-Naxos Seaways project (directed by Colin Renfrew and Michael Boyd), here made available for reuse and customization.  It is an extension of the [iDig digital excavation software] (http://idig.tips), developed by Bruce Hartzler and the [Athenian Agora Excavations of the American School of Classical Studies in Greece] (http://agathe.gr).
+This is a work product from the Keros-Naxos Seaways project (directed by Colin Renfrew and Michael Boyd), here made available for reuse and customization.  It is an extension of the [iDig digital excavation software](http://idig.tips), developed by Bruce Hartzler and the [Athenian Agora Excavations of the American School of Classical Studies in Greece](http://agathe.gr).
 
 ## Purpose
 The iDig to SQLite Data Processing tools take data exported from Bruce Hartzler's iDig and move them into a set of CSV files that can support a variety of uses such as import to a database or GIS.  There is also a second round of processing more specific to the Keros-Naxos Seaways project.  This creates additional CSVs for the GIS as well as a GeoPackage and a Sqlite database.  All of this can be modified for your project using text-based editing tools.
